@@ -29,7 +29,7 @@ services:
       - "7053:7053"
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
-  car-lease-demo:
+  pilot1:
     build:
       context: "."
     links:

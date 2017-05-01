@@ -3,7 +3,7 @@
 # Exit on first error, print all commands.
 set -ev
 
-# Grab the Car Lease Demo directory.
+# Grab the Pilot1 directory.
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )";
 
 # If the keyValStore exits, remove it
